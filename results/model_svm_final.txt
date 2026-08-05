@@ -1,0 +1,23 @@
+Support Vector Machines with Radial Basis Function Kernel 
+
+  150 samples
+10000 predictors
+    2 classes: 'Primary.Tumor', 'Solid.Tissue.Normal' 
+
+Pre-processing: centered (10000), scaled (10000) 
+Resampling: Cross-Validated (5 fold) 
+Summary of sample sizes: 120, 119, 120, 120, 121 
+Resampling results across tuning parameters:
+
+  C      ROC        Sens       Spec     
+  0.125  0.9731041  0.9780423  0.3666667
+  0.250  0.9731041  0.9780423  0.3666667
+  0.500  0.9731041  0.9851852  0.3666667
+  1.000  0.9731041  0.9780423  0.5000000
+  2.000  0.9730159  0.9780423  0.3666667
+  4.000  0.9805115  0.9854497  0.3000000
+  8.000  0.9817460  0.9780423  0.3000000
+
+Tuning parameter 'sigma' was held constant at a value of 5.318138e-05
+ROC was used to select the optimal model using the largest value.
+The final values used for the model were sigma = 5.318138e-05 and C = 8.

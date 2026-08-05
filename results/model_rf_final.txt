@@ -1,0 +1,18 @@
+Random Forest 
+
+  150 samples
+10000 predictors
+    2 classes: 'Primary.Tumor', 'Solid.Tissue.Normal' 
+
+No pre-processing
+Resampling: Cross-Validated (5 fold) 
+Summary of sample sizes: 120, 120, 119, 120, 121 
+Resampling results across tuning parameters:
+
+  mtry  ROC        Sens       Spec     
+     2  0.9555556  1.0000000  0.1333333
+   141  0.9456790  0.9925926  0.3333333
+  9999  0.9161376  0.9851852  0.2666667
+
+ROC was used to select the optimal model using the largest value.
+The final value used for the model was mtry = 2.

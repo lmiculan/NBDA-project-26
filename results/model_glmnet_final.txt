@@ -1,0 +1,24 @@
+glmnet 
+
+  150 samples
+10000 predictors
+    2 classes: 'Primary.Tumor', 'Solid.Tissue.Normal' 
+
+Pre-processing: centered (10000), scaled (10000) 
+Resampling: Cross-Validated (5 fold) 
+Summary of sample sizes: 120, 120, 119, 120, 121 
+Resampling results across tuning parameters:
+
+  alpha  lambda      ROC        Sens       Spec      
+  0.10   0.01099533  0.9567901  0.9925926  0.40000000
+  0.10   0.03477030  0.9567901  0.9925926  0.40000000
+  0.10   0.10995334  0.9604938  0.9925926  0.40000000
+  0.55   0.01099533  0.9432099  0.9925926  0.40000000
+  0.55   0.03477030  0.9543210  0.9925926  0.40000000
+  0.55   0.10995334  0.9666667  0.9925926  0.26666667
+  1.00   0.01099533  0.9433862  0.9851852  0.40000000
+  1.00   0.03477030  0.9458554  0.9925926  0.40000000
+  1.00   0.10995334  0.9345679  1.0000000  0.06666667
+
+ROC was used to select the optimal model using the largest value.
+The final values used for the model were alpha = 0.55 and lambda = 0.1099533.
